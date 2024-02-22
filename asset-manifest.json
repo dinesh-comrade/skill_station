@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skill_station/static/css/main.ea0cb664.css",
+    "main.js": "/skill_station/static/js/main.420f2eb2.js",
+    "index.html": "/skill_station/index.html",
+    "main.ea0cb664.css.map": "/skill_station/static/css/main.ea0cb664.css.map",
+    "main.420f2eb2.js.map": "/skill_station/static/js/main.420f2eb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea0cb664.css",
+    "static/js/main.420f2eb2.js"
+  ]
+}
