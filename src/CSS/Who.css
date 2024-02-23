@@ -1,0 +1,173 @@
+.who {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  min-height: 100vh;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.who .who-cards .container-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.who .card-main-who {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.who .h1-who {
+  font-size: 3rem;
+  color: #0176c3;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.who .card-who {
+  display: block;
+  position: relative;
+  min-width: 280px;
+  height: 500px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0),
+    -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.who .card-who .box-who {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #fafafa;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.who .card-who .box-who:hover {
+  transform: translateY(-50px);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
+}
+
+.who .card-who .box-who:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.who .card-who .box-who .content-who {
+  padding: 20px;
+  text-align: left;
+}
+
+.who .card-who .box-who .content-who .img-who {
+  position: absolute;
+  width: 20%;
+  top: 2%;
+  right: 8%;
+}
+
+.who .card-who .box-who .content-who .h3-who {
+  font-size: 1.8rem;
+  color: #0176c3;
+  font-weight: 700;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.who .card-who .box-who .content-who .p-who {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #111;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+  .who .who-cards .container-cards {
+    flex-wrap: wrap;
+  }
+
+  .who {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .who .who-cards .container-cards {
+    flex-wrap: wrap;
+  }
+
+  .who {
+    height: 100%;
+  }
+
+  .who .card-who .box-who .content-who .img-who {
+    position: absolute;
+    width: 15%;
+  }
+
+  .who .card-who .box-who .content-who .h3-who {
+    font-size: 1.5rem;
+  }
+
+  .who .card-who .box-who .content-who .p-who {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  .who .card-who {
+    min-width: 250px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .who .who-cards .container-cards {
+    flex-wrap: wrap;
+  }
+
+  .who {
+    height: 100%;
+  }
+
+  .who .card-who .box-who .content-who .img-who {
+    position: absolute;
+    width: 15%;
+  }
+
+  .who .card-who .box-who .content-who .h3-who {
+    font-size: 1rem;
+  }
+
+  .who .card-who .box-who .content-who .p-who {
+    font-size: 0.8rem;
+  }
+
+  .who .card-who {
+    min-width: 230px;
+    height: 350px;
+  }
+}

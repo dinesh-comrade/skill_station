@@ -37,8 +37,8 @@ const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="3000">
           <img src={one} className="d-block w-100 slider-img" alt="..." />
-          <div class="bg-overlay"></div>
-          <div class="carousel-caption">
+          <div className="bg-overlay"></div>
+          <div className="carousel-caption">
             <a className="caption-head">
               International Workshop on "Social Entrepreneurship" organised by
               CSIE-IITM
@@ -51,8 +51,8 @@ const Carousel = () => {
         </div>
         <div className="carousel-item" data-bs-interval="3000">
           <img src={two} className="d-block w-100 slider-img" alt="..." />
-          <div class="bg-overlay"></div>
-          <div class="carousel-caption">
+          <div className="bg-overlay"></div>
+          <div className="carousel-caption">
             <a className="caption-head">Team Project</a>
             <br />
 
@@ -61,8 +61,8 @@ const Carousel = () => {
         </div>
         <div className="carousel-item" data-bs-interval="3000">
           <img src={three} className="d-block w-100 slider-img" alt="..." />
-          <div class="bg-overlay"></div>
-          <div class="carousel-caption">
+          <div className="bg-overlay"></div>
+          <div className="carousel-caption">
             <a className="caption-head">Cultural Night</a>
             <br />
             <a className="caption-para">And Social Events</a>
