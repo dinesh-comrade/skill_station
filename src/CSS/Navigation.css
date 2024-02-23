@@ -1,0 +1,123 @@
+:root {
+  --var-black: #1d242c;
+  --var-title: #0176c3;
+  --var-smalltext: #c7eeff;
+  --var-alice: #fafafa;
+}
+
+/* Navigation Styles */
+
+.navbar {
+  background-color: #000;
+  color: #fafafa;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .navbar-brand {
+  color: #fafafa;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand .shine-title:hover {
+  background: linear-gradient(to right, #3d3d3d 0, #fafafa 10%, #3d3d3d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  font-weight: 700;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  25% {
+    background-position: 100px;
+  }
+  50% {
+    background-position: 120px;
+  }
+  75% {
+    background-position: 150px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  background-color: #fafafa;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:before {
+  content: "";
+  background: #0176c3;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.7s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: #0176c3;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background-position: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::before {
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active {
+  background-color: #0176c3;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background-position: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active::before {
+  width: 100%;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar .navbar-toggler:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar .btn-close {
+  border: none;
+}
+
+.navbar .btn-close:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .sidebar {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+  }
+}

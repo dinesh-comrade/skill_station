@@ -1,10 +1,13 @@
 import React from "react";
+import { Navigation } from "./Components/Navigation";
+import { Carousel } from "./Components/Carousel";
 
 const App = () => {
   return (
-    <div>
-      <h1>Skill Station</h1>
-    </div>
+    <>
+      <Navigation />
+      <Carousel />
+    </>
   );
 };
 

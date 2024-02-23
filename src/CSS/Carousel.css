@@ -1,0 +1,142 @@
+.carousel .slider-img {
+  max-width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  object-fit: cover;
+  animation: zoom 3s infinite linear;
+}
+
+.carousel .carousel-item .carousel-caption {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.carousel .carousel-item .carousel-caption {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.04);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  75% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1.16);
+  }
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.59);
+  opacity: 0.5;
+}
+
+.carousel .carousel-item .carousel-caption .caption-head {
+  font-size: 2rem;
+  color: #0176c3;
+  font-weight: 900;
+  padding: 1%;
+  background: linear-gradient(to right, #fff 50%, transparent 500%);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 0 100%;
+  animation: background 4s infinite linear;
+}
+
+@keyframes background {
+  0% {
+    background-size: 0 100%;
+  }
+  25% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 200% 100%;
+  }
+  75% {
+    background-size: 300% 100%;
+  }
+  100% {
+    background-size: 400% 100%;
+  }
+}
+
+.carousel .carousel-item .carousel-caption .caption-para {
+  font-size: 1.5rem;
+  color: #fafafa;
+  font-weight: 700;
+  padding: 1%;
+  margin-top: 10px;
+  background: linear-gradient(to right, #0176c3 50%, transparent 500%);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 0 100%;
+  animation: background 4s infinite linear;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel .slider-img {
+    height: 60vh;
+  }
+
+  .carousel .carousel-item .carousel-caption {
+    width: 90%;
+    top: 70%;
+    text-align: center;
+  }
+
+  .carousel .carousel-item .carousel-caption .caption-head {
+    font-size: 1.5rem;
+  }
+
+  .carousel .carousel-item .carousel-caption .caption-para {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .carousel .slider-img {
+    height: 50vh;
+  }
+
+  .carousel .carousel-item .carousel-caption {
+    width: 90%;
+    top: 65%;
+    text-align: center;
+  }
+
+  .carousel .carousel-item .carousel-caption .caption-head {
+    font-size: 1rem;
+  }
+
+  .carousel .carousel-item .carousel-caption .caption-para {
+    font-size: 0.8rem;
+  }
+}
