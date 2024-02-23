@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/skill_station/static/css/main.52084b58.css",
-    "main.js": "/skill_station/static/js/main.2b51fab0.js",
+    "main.css": "/skill_station/static/css/main.cd01a5ba.css",
+    "main.js": "/skill_station/static/js/main.827dd7ec.js",
     "static/media/2.png": "/skill_station/static/media/2.83a2c5ec314d327643ff.png",
     "static/media/1.png": "/skill_station/static/media/1.e5bdc491d6ac092724d8.png",
     "static/media/3.png": "/skill_station/static/media/3.e0fffacfd7c80b248db7.png",
     "static/media/4.png": "/skill_station/static/media/4.8505babf14a20a8a34b5.png",
     "static/media/parallex.png": "/skill_station/static/media/parallex.43a90f50d6e1137c2639.png",
+    "static/media/card_image_three.png": "/skill_station/static/media/card_image_three.0e6a49662d50bebaf4b9.png",
+    "static/media/card_image_two.png": "/skill_station/static/media/card_image_two.ce94c277a94338b28598.png",
     "static/media/card_image_one.png": "/skill_station/static/media/card_image_one.d0aa041be3a446586719.png",
     "static/media/workshops_icon.svg": "/skill_station/static/media/workshops_icon.bbc2b77c5c4e396e324ecb037eb592f5.svg",
     "static/media/career_guidance_icon.svg": "/skill_station/static/media/career_guidance_icon.103a839c4879ce664d2ab73dc9e3b9fc.svg",
@@ -14,11 +16,11 @@
     "static/media/internships_placements_icon.svg": "/skill_station/static/media/internships_placements_icon.4f6eb6ee071e21791595342946d25af7.svg",
     "static/media/logo.svg": "/skill_station/static/media/logo.2bc0ba5e834db1e31988dd0f1f71afb4.svg",
     "index.html": "/skill_station/index.html",
-    "main.52084b58.css.map": "/skill_station/static/css/main.52084b58.css.map",
-    "main.2b51fab0.js.map": "/skill_station/static/js/main.2b51fab0.js.map"
+    "main.cd01a5ba.css.map": "/skill_station/static/css/main.cd01a5ba.css.map",
+    "main.827dd7ec.js.map": "/skill_station/static/js/main.827dd7ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.52084b58.css",
-    "static/js/main.2b51fab0.js"
+    "static/css/main.cd01a5ba.css",
+    "static/js/main.827dd7ec.js"
   ]
 }
