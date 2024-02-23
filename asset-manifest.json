@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skill_station/static/css/main.1f0a23df.css",
+    "main.css": "/skill_station/static/css/main.52084b58.css",
     "main.js": "/skill_station/static/js/main.2b51fab0.js",
     "static/media/2.png": "/skill_station/static/media/2.83a2c5ec314d327643ff.png",
     "static/media/1.png": "/skill_station/static/media/1.e5bdc491d6ac092724d8.png",
@@ -14,11 +14,11 @@
     "static/media/internships_placements_icon.svg": "/skill_station/static/media/internships_placements_icon.4f6eb6ee071e21791595342946d25af7.svg",
     "static/media/logo.svg": "/skill_station/static/media/logo.2bc0ba5e834db1e31988dd0f1f71afb4.svg",
     "index.html": "/skill_station/index.html",
-    "main.1f0a23df.css.map": "/skill_station/static/css/main.1f0a23df.css.map",
+    "main.52084b58.css.map": "/skill_station/static/css/main.52084b58.css.map",
     "main.2b51fab0.js.map": "/skill_station/static/js/main.2b51fab0.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f0a23df.css",
+    "static/css/main.52084b58.css",
     "static/js/main.2b51fab0.js"
   ]
 }
