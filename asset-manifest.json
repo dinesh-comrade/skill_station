@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/skill_station/static/css/main.ea0cb664.css",
-    "main.js": "/skill_station/static/js/main.420f2eb2.js",
+    "main.css": "/skill_station/static/css/main.a9072997.css",
+    "main.js": "/skill_station/static/js/main.fd526e21.js",
+    "static/media/2.png": "/skill_station/static/media/2.83a2c5ec314d327643ff.png",
+    "static/media/1.png": "/skill_station/static/media/1.e5bdc491d6ac092724d8.png",
+    "static/media/3.png": "/skill_station/static/media/3.e0fffacfd7c80b248db7.png",
+    "static/media/logo.svg": "/skill_station/static/media/logo.2bc0ba5e834db1e31988dd0f1f71afb4.svg",
     "index.html": "/skill_station/index.html",
-    "main.ea0cb664.css.map": "/skill_station/static/css/main.ea0cb664.css.map",
-    "main.420f2eb2.js.map": "/skill_station/static/js/main.420f2eb2.js.map"
+    "main.a9072997.css.map": "/skill_station/static/css/main.a9072997.css.map",
+    "main.fd526e21.js.map": "/skill_station/static/js/main.fd526e21.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea0cb664.css",
-    "static/js/main.420f2eb2.js"
+    "static/css/main.a9072997.css",
+    "static/js/main.fd526e21.js"
   ]
 }
