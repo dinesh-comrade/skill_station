@@ -3,171 +3,157 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
-  min-height: 100vh;
+  background-image: url("../assets/images/Who/parallex.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   box-sizing: border-box;
   flex-wrap: wrap;
-}
-
-.who .who-cards .container-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.who .card-main-who {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.who .h1-who {
-  font-size: 3rem;
-  color: #0176c3;
-  font-weight: 700;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.who .card-who {
-  display: block;
   position: relative;
-  min-width: 280px;
-  height: 500px;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
-    inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0),
-    -5px -5px 15px rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  margin: 30px;
-  transition: 0.5s;
+  z-index: 0;
 }
 
-.who .card-who .box-who {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: #fafafa;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.who .card-who .box-who:hover {
-  transform: translateY(-50px);
-  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
-}
-
-.who .card-who .box-who:before {
+.who::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.03);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
 }
 
-.who .card-who .box-who .content-who {
-  padding: 20px;
-  text-align: left;
-}
-
-.who .card-who .box-who .content-who .img-who {
-  position: absolute;
-  width: 20%;
-  top: 2%;
-  right: 8%;
-}
-
-.who .card-who .box-who .content-who .h3-who {
-  font-size: 1.8rem;
+.who .h1-who {
+  line-height: 1.2em;
+  font-size: 3rem;
   color: #0176c3;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-shadow: 0 0 #0176c3, 0 1.2em #000;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.who .h1-who:hover {
+  color: #000;
+  text-shadow: 0 -1.2em #0176c3, 0 0 #000;
+}
+
+.who .p-who {
+  color: #fafafa;
   font-weight: 700;
-  z-index: 1;
-  transition: 0.5s;
-  margin-bottom: 15px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
 }
 
-.who .card-who .box-who .content-who .p-who {
-  font-size: 1rem;
-  font-weight: 300;
-  color: #111;
-  z-index: 1;
-  transition: 0.5s;
+.who .p-who span {
+  background: linear-gradient(to bottom, #0176c3 0%, #0176c3 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #fafafa;
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  transition: background-size 0.2s;
 }
 
-@media screen and (max-width: 1024px) {
-  .who .who-cards .container-cards {
-    flex-wrap: wrap;
-  }
-
-  .who {
-    height: 100%;
-  }
+.who .p-who span:hover {
+  background-size: 4px 50px;
 }
 
-@media screen and (max-width: 992px) {
-  .who .who-cards .container-cards {
-    flex-wrap: wrap;
-  }
+/* button */
 
-  .who {
-    height: 100%;
-  }
-
-  .who .card-who .box-who .content-who .img-who {
-    position: absolute;
-    width: 15%;
-  }
-
-  .who .card-who .box-who .content-who .h3-who {
-    font-size: 1.5rem;
-  }
-
-  .who .card-who .box-who .content-who .p-who {
-    font-size: 0.9rem;
-    font-weight: 300;
-  }
-
-  .who .card-who {
-    min-width: 250px;
-    height: 400px;
-  }
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px #0176c3, 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
 }
 
-@media screen and (max-width: 782px) {
-  .who .who-cards .container-cards {
-    flex-wrap: wrap;
-  }
+.btn-who {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  box-shadow: none;
+  width: 160px;
+  height: 50px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
 
-  .who {
-    height: 100%;
-  }
+.btn-who span {
+  background: #000;
+  display: block;
+  font-weight: 800;
+  position: absolute;
+  width: 130px;
+  letter-spacing: 1.8px;
+  height: 40px;
+  box-shadow: inset 2px 2px 2px 0px #0176c3, 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
-  .who .card-who .box-who .content-who .img-who {
-    position: absolute;
-    width: 15%;
-  }
+.btn-who span:nth-child(1) {
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
 
-  .who .card-who .box-who .content-who .h3-who {
-    font-size: 1rem;
-  }
+.btn-who span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
 
-  .who .card-who .box-who .content-who .p-who {
-    font-size: 0.8rem;
-  }
+.btn-who:hover span:nth-child(1) {
+  background-color: #0176c3;
+  color: #000;
+  font-weight: 800;
+  box-shadow: inset 2px 2px 2px 0px #0176c3, 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
 
-  .who .card-who {
-    min-width: 230px;
-    height: 350px;
-  }
+.btn-who:hover span:nth-child(2) {
+  background-color: #0176c3;
+  color: #000;
+  font-weight: 800;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
 }

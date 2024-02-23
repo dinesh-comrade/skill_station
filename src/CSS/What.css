@@ -1,0 +1,181 @@
+.what {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.what .what-cards .container-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.what .card-main-what {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.what .h1-what {
+  line-height: 1.2em;
+  font-size: 3rem;
+  color: #0176c3;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-shadow: 0 0 #0176c3, 0 1.2em #000;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.what .h1-what:hover {
+  color: #000;
+  text-shadow: 0 -1.2em #0176c3, 0 0 #000;
+}
+
+.what .card-what {
+  display: block;
+  position: relative;
+  min-width: 280px;
+  height: 500px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0),
+    -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.what .card-what .box-what {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #fafafa;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.what .card-what .box-what:hover {
+  transform: translateY(-50px);
+  box-shadow: 25px 25px 25px 25px rgba(0, 0, 0, 0.5);
+}
+
+.what .card-what .box-what:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.what .card-what .box-what .content-what {
+  padding: 20px;
+  text-align: left;
+}
+
+.what .card-what .box-what .content-what .img-what {
+  position: absolute;
+  width: 20%;
+  top: 2%;
+  right: 8%;
+}
+
+.what .card-what .box-what .content-what .h3-what {
+  font-size: 1.8rem;
+  color: #0176c3;
+  font-weight: 700;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.what .card-what .box-what .content-what .p-what {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #111;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+  .what .what-cards .container-cards {
+    flex-wrap: wrap;
+  }
+
+  .what {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .what .what-cards .container-cards {
+    flex-wrap: wrap;
+  }
+
+  .what {
+    height: 100%;
+  }
+
+  .what .card-what .box-what .content-what .img-what {
+    position: absolute;
+    width: 15%;
+  }
+
+  .what .card-what .box-what .content-what .h3-what {
+    font-size: 1.5rem;
+  }
+
+  .what .card-what .box-what .content-what .p-what {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  .what .card-what {
+    min-width: 250px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .what .what-cards .container-cards {
+    flex-wrap: wrap;
+  }
+
+  .what {
+    height: 100%;
+  }
+
+  .what .card-what .box-what .content-what .img-what {
+    position: absolute;
+    width: 15%;
+  }
+
+  .what .card-what .box-what .content-what .h3-what {
+    font-size: 1rem;
+  }
+
+  .what .card-what .box-what .content-what .p-what {
+    font-size: 0.8rem;
+  }
+
+  .what .card-what {
+    min-width: 230px;
+    height: 350px;
+  }
+}

@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   position: relative;
   object-fit: cover;
+  object-position: center top;
   animation: zoom 3s infinite linear;
 }
 

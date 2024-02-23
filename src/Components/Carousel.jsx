@@ -3,6 +3,7 @@ import React from "react";
 import one from "../assets/images/Carousel/1.png";
 import two from "../assets/images/Carousel/2.png";
 import three from "../assets/images/Carousel/3.png";
+import four from "../assets/images/Carousel/4.png";
 import "../CSS/Carousel.css";
 
 const Carousel = () => {
@@ -32,6 +33,12 @@ const Carousel = () => {
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to={2}
           aria-label="Slide 3"
+        />
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to={3}
+          aria-label="Slide 4"
         />
       </div>
       <div className="carousel-inner">
@@ -66,6 +73,15 @@ const Carousel = () => {
             <a className="caption-head">Cultural Night</a>
             <br />
             <a className="caption-para">And Social Events</a>
+          </div>
+        </div>
+        <div className="carousel-item" data-bs-interval="3000">
+          <img src={four} className="d-block w-100 slider-img" alt="..." />
+          <div className="bg-overlay"></div>
+          <div className="carousel-caption">
+            <a className="caption-head">Transforming Lives</a>
+            <br />
+            <a className="caption-para">And Empowering Minds</a>
           </div>
         </div>
       </div>
