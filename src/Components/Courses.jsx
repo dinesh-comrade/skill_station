@@ -2,6 +2,8 @@
 import React from "react";
 import "../CSS/Courses.css";
 import fullstack from "../assets/images/card_image_one.png";
+import mobile from "../assets/images/card_image_two.png";
+import data from "../assets/images/card_image_three.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -12,9 +14,12 @@ const Courses = () => {
   return (
     <main className="course">
       <div className="container">
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-12">
             <h1 className="text-center h1-course">Courses</h1>
+            <p className="text-center text-body-secondary">
+              Choose your course and start learning (MERN Stack, Flutter, Dart)
+            </p>
           </div>
         </div>
         <Swiper
@@ -62,23 +67,21 @@ const Courses = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="card">
-              <img src={fullstack} className="card-img-top" alt="..." />
+              <img src={mobile} className="card-img-top" alt="..." />
               <div className="card-body h-100">
-                <h5 className="card-title">
-                  Full Stack Web Application Development(MERN)
-                </h5>
+                <h5 className="card-title">Mobile Web App Development</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">
                   Course Modules
                 </h6>
                 <div className="d-flex justify-content-start align-items-start flex-column gap-2 mb-4">
                   <a href="#" className="btn btn-course rounded-pill">
-                    Fundamentals of Javascript
+                    Programming in Dart
                   </a>
                   <a href="#" className="btn btn-course rounded-pill">
-                    Introduction to Web Application Development with ReactJs
+                    Flutter App Development
                   </a>
                   <a href="#" className="btn btn-course rounded-pill">
-                    Introduction to Server Side App Development with NodeJs
+                    Flutter App Development with Firebase
                   </a>
                 </div>
 
@@ -99,23 +102,21 @@ const Courses = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="card">
-              <img src={fullstack} className="card-img-top" alt="..." />
+              <img src={data} className="card-img-top" alt="..." />
               <div className="card-body h-100">
-                <h5 className="card-title">
-                  Full Stack Web Application Development(MERN)
-                </h5>
+                <h5 className="card-title">Static Website Development</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">
                   Course Modules
                 </h6>
                 <div className="d-flex justify-content-start align-items-start flex-column gap-2 mb-4">
                   <a href="#" className="btn btn-course rounded-pill">
-                    Fundamentals of Javascript
+                    Learn from Scratch
                   </a>
                   <a href="#" className="btn btn-course rounded-pill">
-                    Introduction to Web Application Development with ReactJs
+                    Fundamental of HTML, JS and CSS
                   </a>
                   <a href="#" className="btn btn-course rounded-pill">
-                    Introduction to Server Side App Development with NodeJs
+                    Build Static website Development
                   </a>
                 </div>
 
