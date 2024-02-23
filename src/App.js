@@ -3,6 +3,7 @@ import { Navigation } from "./Components/Navigation";
 import { Carousel } from "./Components/Carousel";
 import { What } from "./Components/What";
 import { Who } from "./Components/Who";
+import { Courses } from "./Components/Courses";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Carousel />
       <What />
       <Who />
+      <Courses />
     </>
   );
 };

@@ -157,3 +157,21 @@
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
+
+@media screen and (max-width: 992px) {
+  .who .h1-who {
+    font-size: 2.5rem;
+    text-shadow: 0 0 #0176c3, 0 0em #000;
+  }
+
+  .who .h1-who:hover {
+    text-shadow: 0 0em #0176c3, 0 0 #000;
+  }
+  .who .p-who {
+    font-size: 1.5rem;
+  }
+
+  .who .p-who span {
+    font-size: 1.5rem;
+  }
+}
