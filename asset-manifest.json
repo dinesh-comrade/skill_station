@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skill_station/static/css/main.b5b05a06.css",
-    "main.js": "/skill_station/static/js/main.dc500ad8.js",
+    "main.css": "/skill_station/static/css/main.af157081.css",
+    "main.js": "/skill_station/static/js/main.8bf187d5.js",
     "static/media/2.png": "/skill_station/static/media/2.83a2c5ec314d327643ff.png",
     "static/media/1.png": "/skill_station/static/media/1.e5bdc491d6ac092724d8.png",
     "static/media/3.png": "/skill_station/static/media/3.e0fffacfd7c80b248db7.png",
@@ -11,19 +11,22 @@
     "static/media/feedback_avatar_three.png": "/skill_station/static/media/feedback_avatar_three.60f4a5f8abea4617a74c.png",
     "static/media/card_image_two.png": "/skill_station/static/media/card_image_two.ce94c277a94338b28598.png",
     "static/media/card_image_one.png": "/skill_station/static/media/card_image_one.d0aa041be3a446586719.png",
+    "static/media/saras.png": "/skill_station/static/media/saras.aa05bd44feaf85a963d8.png",
+    "static/media/ilailabs.png": "/skill_station/static/media/ilailabs.d1a093b49948d4738b8f.png",
     "static/media/feedback_avatar_one.jpg": "/skill_station/static/media/feedback_avatar_one.7082587a980e3a6563ec.jpg",
     "static/media/feedback_avatar_two.jpg": "/skill_station/static/media/feedback_avatar_two.641a23f36f6c6c96cef8.jpg",
+    "static/media/easyprop.png": "/skill_station/static/media/easyprop.d40d6345d21503b3eeb0.png",
     "static/media/workshops_icon.svg": "/skill_station/static/media/workshops_icon.bbc2b77c5c4e396e324ecb037eb592f5.svg",
     "static/media/career_guidance_icon.svg": "/skill_station/static/media/career_guidance_icon.103a839c4879ce664d2ab73dc9e3b9fc.svg",
     "static/media/professional_courses_icon.svg": "/skill_station/static/media/professional_courses_icon.c197d8c1ef4d2e6e82d2c76595da7903.svg",
     "static/media/internships_placements_icon.svg": "/skill_station/static/media/internships_placements_icon.4f6eb6ee071e21791595342946d25af7.svg",
     "static/media/logo.svg": "/skill_station/static/media/logo.2bc0ba5e834db1e31988dd0f1f71afb4.svg",
     "index.html": "/skill_station/index.html",
-    "main.b5b05a06.css.map": "/skill_station/static/css/main.b5b05a06.css.map",
-    "main.dc500ad8.js.map": "/skill_station/static/js/main.dc500ad8.js.map"
+    "main.af157081.css.map": "/skill_station/static/css/main.af157081.css.map",
+    "main.8bf187d5.js.map": "/skill_station/static/js/main.8bf187d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5b05a06.css",
-    "static/js/main.dc500ad8.js"
+    "static/css/main.af157081.css",
+    "static/js/main.8bf187d5.js"
   ]
 }
