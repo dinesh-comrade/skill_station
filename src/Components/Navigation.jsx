@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import logo from "../assets/icons/logo.svg";
@@ -113,7 +114,12 @@ const Navigation = () => {
                 </a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="https://wa.me/917307959397"
+                  target="_blank"
+                >
                   Contact Us
                 </a>
               </li>

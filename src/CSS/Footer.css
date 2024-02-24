@@ -1,0 +1,132 @@
+footer {
+  max-width: 100%;
+  padding: 4% 6%;
+  height: 100%;
+  border-radius: 20px 20px 0px 0px;
+  background: #000;
+  color: #fafafa;
+}
+
+footer .shine-title {
+  font-size: 1.1rem;
+}
+
+footer .shine-title:hover {
+  background: linear-gradient(to right, #3d3d3d 0, #fafafa 10%, #3d3d3d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  font-weight: 700;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  25% {
+    background-position: 100px;
+  }
+  50% {
+    background-position: 120px;
+  }
+  75% {
+    background-position: 150px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
+.p-footer {
+  color: #fafafa;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding-left: 5%;
+  margin: 0 auto;
+}
+
+.social-icons {
+  padding-left: 5%;
+}
+
+.social-icon {
+  border-radius: 50%;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  background-color: rgba(249, 244, 255, 0.774);
+  animation: bounce_613 0.4s linear;
+}
+
+.h5-footer {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-left: 5%;
+  color: #0176c3;
+}
+
+.ul-footer {
+  padding-left: 5%;
+  list-style: none;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.a-footer {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #b9b9b9;
+  transition: 0.4s;
+}
+
+.a-footer:hover {
+  font-size: 1.1rem;
+  color: #fafafa;
+}
+
+.h5-footer {
+  line-height: 1.2em;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-left: 5%;
+  color: #0176c3;
+  text-shadow: 0 0 #0176c3, 0 1.2em #fff;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.h5-footer:hover {
+  color: #fff;
+  text-shadow: 0 -1.2em #0176c3, 0 0 #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .h5-footer {
+    font-size: 2.5rem;
+    text-shadow: 0 0 #0176c3, 0 0em #fff;
+  }
+
+  .h5-footer:hover {
+    text-shadow: 0 0em #0176c3, 0 0 #fff;
+  }
+}

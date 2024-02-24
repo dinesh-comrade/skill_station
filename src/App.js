@@ -5,7 +5,8 @@ import { What } from "./Components/What";
 import { Who } from "./Components/Who";
 import { Courses } from "./Components/Courses";
 import { Feedback } from "./Components/Feedback";
-import Partners from "./Components/Partners";
+import { Partners } from "./Components/Partners";
+import { Footer } from "./Components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Courses />
       <Feedback />
       <Partners />
+      <Footer />
     </>
   );
 };
