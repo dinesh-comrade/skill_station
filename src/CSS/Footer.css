@@ -122,11 +122,15 @@ footer .shine-title:hover {
 
 @media screen and (max-width: 768px) {
   .h5-footer {
-    font-size: 2.5rem;
+    font-size: 1rem;
     text-shadow: 0 0 #0176c3, 0 0em #fff;
   }
 
   .h5-footer:hover {
     text-shadow: 0 0em #0176c3, 0 0 #fff;
+  }
+
+  .a-footer {
+    font-size: 0.8rem;
   }
 }
