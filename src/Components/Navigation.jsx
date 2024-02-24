@@ -73,11 +73,16 @@ const Navigation = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
               <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  data-bs-dismiss="offcanvas"
+                >
                   Home
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" data-bs-dismiss="offcanvas">
                 <a
                   className="nav-link active"
                   aria-current="page"
@@ -86,7 +91,7 @@ const Navigation = () => {
                   About Us
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" data-bs-dismiss="offcanvas">
                 <a
                   className="nav-link active"
                   aria-current="page"
@@ -95,7 +100,7 @@ const Navigation = () => {
                   Courses
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" data-bs-dismiss="offcanvas">
                 <a
                   className="nav-link active"
                   aria-current="page"
@@ -104,7 +109,7 @@ const Navigation = () => {
                   Feedbacks
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" data-bs-dismiss="offcanvas">
                 <a
                   className="nav-link active"
                   aria-current="page"
@@ -113,7 +118,7 @@ const Navigation = () => {
                   Partners
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-3" data-bs-dismiss="offcanvas">
                 <a
                   className="nav-link active"
                   aria-current="page"
