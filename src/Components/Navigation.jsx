@@ -95,12 +95,20 @@ const Navigation = () => {
                 </a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#feedback"
+                >
                   Feedbacks
                 </a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#partners"
+                >
                   Partners
                 </a>
               </li>

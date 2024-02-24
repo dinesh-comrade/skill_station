@@ -5,6 +5,7 @@ import { What } from "./Components/What";
 import { Who } from "./Components/Who";
 import { Courses } from "./Components/Courses";
 import { Feedback } from "./Components/Feedback";
+import Partners from "./Components/Partners";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Who />
       <Courses />
       <Feedback />
+      <Partners />
     </>
   );
 };
