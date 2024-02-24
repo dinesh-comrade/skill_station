@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/skill_station/static/css/main.b868a4a2.css",
-    "main.js": "/skill_station/static/js/main.cd624d58.js",
-    "static/media/2.png": "/skill_station/static/media/2.83a2c5ec314d327643ff.png",
-    "static/media/1.png": "/skill_station/static/media/1.e5bdc491d6ac092724d8.png",
-    "static/media/3.png": "/skill_station/static/media/3.e0fffacfd7c80b248db7.png",
-    "static/media/4.png": "/skill_station/static/media/4.8505babf14a20a8a34b5.png",
+    "main.css": "/skill_station/static/css/main.fd4d9f07.css",
+    "main.js": "/skill_station/static/js/main.7de68896.js",
     "static/media/parallex.png": "/skill_station/static/media/parallex.43a90f50d6e1137c2639.png",
+    "static/media/2.png": "/skill_station/static/media/2.d96e65b7a85b9c166874.png",
+    "static/media/1.png": "/skill_station/static/media/1.c01bb5e638bcc09b2252.png",
+    "static/media/3.png": "/skill_station/static/media/3.0b80c3b54574e8b11505.png",
+    "static/media/4.png": "/skill_station/static/media/4.a54ffba3b97d17e80d27.png",
     "static/media/card_image_three.png": "/skill_station/static/media/card_image_three.0e6a49662d50bebaf4b9.png",
     "static/media/feedback_avatar_three.png": "/skill_station/static/media/feedback_avatar_three.60f4a5f8abea4617a74c.png",
     "static/media/card_image_two.png": "/skill_station/static/media/card_image_two.ce94c277a94338b28598.png",
@@ -27,11 +27,11 @@
     "index.html": "/skill_station/index.html",
     "static/media/gmail.svg": "/skill_station/static/media/gmail.87cc67187afd3477d6c29ef768e48834.svg",
     "static/media/whatsapp.svg": "/skill_station/static/media/whatsapp.b38bde1871e473a4c0021b765947408b.svg",
-    "main.b868a4a2.css.map": "/skill_station/static/css/main.b868a4a2.css.map",
-    "main.cd624d58.js.map": "/skill_station/static/js/main.cd624d58.js.map"
+    "main.fd4d9f07.css.map": "/skill_station/static/css/main.fd4d9f07.css.map",
+    "main.7de68896.js.map": "/skill_station/static/js/main.7de68896.js.map"
   },
   "entrypoints": [
-    "static/css/main.b868a4a2.css",
-    "static/js/main.cd624d58.js"
+    "static/css/main.fd4d9f07.css",
+    "static/js/main.7de68896.js"
   ]
 }
