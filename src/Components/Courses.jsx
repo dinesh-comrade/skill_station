@@ -12,13 +12,13 @@ import { EffectCards } from "swiper/modules";
 
 const Courses = () => {
   return (
-    <main className="course">
+    <main className="course pb-5" id="courses">
       <div className="container">
-        <div className="row mb-5">
+        <div className="row mb-2">
           <div className="col-12">
             <h1 className="text-center h1-course">Courses</h1>
             <p className="text-center text-body-secondary">
-              Choose your course and start learning (MERN Stack, Flutter, Dart)
+              Choose your course and start learning
             </p>
           </div>
         </div>
