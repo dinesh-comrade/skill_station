@@ -9,6 +9,10 @@
   color: #fff;
 }
 
+.title-feedback {
+  margin-bottom: 20px;
+}
+
 .feedback .h1-feedback {
   line-height: 1.2em;
   font-size: 3rem;
@@ -90,6 +94,9 @@
 }
 
 @media (width <= 600px) {
+  .title-feedback {
+    margin-bottom: 40px;
+  }
   .feedback {
     height: 100%;
   }
@@ -103,7 +110,7 @@
     text-shadow: 0 0em #0176c3, 0 0 #000;
   }
   .card-feedback {
-    margin: 0 40px;
+    margin: 40px 0;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 60px;
